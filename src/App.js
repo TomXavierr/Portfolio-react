@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
+import "./App.css";
+import CssBaseline from "@mui/material/CssBaseline";
+
+import Navbar from "./components/Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      {/* <header className="App-header">
-       
-      </header> */}
-    </div>
-  );
+    return (
+        <div className="App">
+            <CssBaseline>
+                <Navbar />
+            </CssBaseline>
+           
+        </div>
+    );
 }
 
 export default App;
