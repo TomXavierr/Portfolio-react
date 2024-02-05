@@ -50,6 +50,9 @@ const Navbar = () => {
               <ListItem >
                 <ListItemText primary="Contact" />
               </ListItem>
+              <ListItem >
+                <ListItemText primary="Sponsors" />
+              </ListItem>
             </List>
           </Hidden>
         </Toolbar>
