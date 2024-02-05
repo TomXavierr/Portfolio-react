@@ -51,7 +51,7 @@ const Navbar = () => {
                 <ListItemText primary="Contact" />
               </ListItem>
               <ListItem >
-                <ListItemText primary="Hobbies" />
+                <ListItemText primary="Sponsors" />
               </ListItem>
             </List>
           </Hidden>
